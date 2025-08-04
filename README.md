@@ -18,8 +18,11 @@ LangGraph를 활용한 에이전트 핸즈온 튜토리얼 입니다.
 ## 설치 방법(Local)
 
 ```bash
-git clone https://github.com/teddylee777/LangGraph-HandsOn.git
+#git clone https://github.com/teddylee777/LangGraph-HandsOn.git
+git clone https://github.com/WithModulabs/LangGraph-HandsOn.git
 cd LangGraph-HandsOn
+python -m venv .venv
+.venv\Scripts\Activate
 pip install -r requirements.txt
 ```
 
